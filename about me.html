@@ -1,0 +1,91 @@
+<html>
+      <head><title>My Personal Website</title>
+      </head>
+<center><script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div></center>
+<br>
+<center>
+<body>
+
+      <body bgcolor="darksalmon">
+      <h1><p style="color:purple"><font face = "Brush Script MT" font size = "72">Hidayah's Universe</font></h1>
+      <hr>
+      <font size="6"><a href="home.html">Home</a> | <a href="about me.html">About Me</a>| <a href="family.html">My Family</a> | <a href="education.html">Education</a> | <a href="photovideo.html">Photo & Video Land</a> | <a href="experience.html">Experience</a> | <a href="my things.html">My Things</a> | <a href="others.html">Others</a> | <a href="contact.html">Contact</a></font>
+      <hr>
+      <p style="color:darkblue"><font size="6"><marquee><h4>This is my universe and I would love to share my story with you about myself.</font></h4></marquee></p>
+      <br>
+      <p><font face = "Algerian" size = "9">Who Am I</font></p>
+      <center><img src="images/IMG_20200501_210437_083.jpg" width="650" height="650" border="1" hspace="5" vspace="5"></center>
+      <br>
+      <br>
+      <p1><center><font size="6">About me</font></p1><br>
+<p><font face = "Verdana" size = "3">My full name is Nor Hidayah Izati Binti Murad.
+       <br>
+       <br>
+My age is 20 years old.
+       <br>
+       <br>
+I was born at Hospital Permaisuri Bainun, Ipoh.
+       <br>
+       <br>
+My birthday is on 27th February.
+       <br>
+       <br>
+My Blood type is B.
+<br>
+<br>
+My Zodiac sign is Pisces♓.
+<br>
+<br>
+I’m currently studying at UiTM Kedah since July 2018.
+<br>
+<br>
+My hobby is window shopping, watching movie or drama and listening to music (mostly Korean or English).
+<br>
+<br>
+My goals in 2 years is I can speak Korean,Thai and Spanish. (I hope)
+<br>
+<br>
+
+Everyone who do not know about me, their first impression on me is moody person. I do not smile alot at the public or at strangers but once people know about me, I really easy to laugh at something even a small thing. Like my dad, I think I am introvert and love to listen to other people's story or problem. I also do not trust people so easy, so yeah they to gain my trust first. Am I sociable? Definitily,no. I need a time to comfortable with someone. So yeah, there is only things that I can explain about myself.
+</font></center></p1>
+<br>
+<br>
+
+<p><font face = "WildWest" size = "5">"Never Lose Yourself"</font></p>
+
+      <br>
+      <br>
+<audio controls autoplay>
+  <source src="audio/bts.ogg" type="audio/ogg">
+  <source src="audio/bts.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<br>
+<br>
+      <hr>
+      Copyright © copy 2020 All Right Reserved: Hidayah's Universe
+      <hr>
+</body>
+</center>
+</html>
